@@ -19,7 +19,7 @@ const ROUTES = [
         element: <Home />,
       },
      {
-        path: "/:id",
+        path: "products/:id",
         element: <Detail/>,
       },{
         path: "cart",
