@@ -3,6 +3,7 @@ import Add from "../pages/admin/Add/Add";
 import AdminRoot from "../pages/admin/AdminRoot";
 import Dashboard from "../pages/admin/Dashboard/Dashboard";
 import Products from "../pages/admin/Products/Products";
+import Blog from "../pages/site/Blog/Blog";
 import Cart from "../pages/site/Cart/Cart";
 import Detail from "../pages/site/Detail/Detail";
 import Home from "../pages/site/Home/Home";
@@ -26,6 +27,10 @@ const ROUTES = [
         element: <Cart/>,
       },
       {
+        path: "blog",
+        element: <Blog/>,
+      },
+      {
         path: "*",
         element: <Error/>,
       },
@@ -45,6 +50,9 @@ const ROUTES = [
       }, {
         path: "add",
         element: <Add/>,
+      },{
+        path: "*",
+        element: <Error/>,
       }
     ],
   },

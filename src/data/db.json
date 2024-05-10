@@ -61,7 +61,7 @@
       }
     },
     {
-      "id":" 6",
+      "id": " 6",
       "title": "Solid Gold Petite Micropave ",
       "price": 168,
       "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
@@ -133,16 +133,96 @@
       }
     },
     {
-      "id": "12",
-      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-      "price": 114,
-      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 4.8,
-        "count": 400
-      }
+      "id": "21b6fc85-fd1a-441e-9fc7-b83a889a34a2",
+      "title": "rsrs",
+      "price": 3223,
+      "image": "serser"
     }
-  ]
+  ],
+ "articles": [
+ 
+   {"id":"1",
+    "author": "Zac Crellin",
+    "title": "Protesters attempt to storm Tesla's factory in Berlin",
+    "description": "Environmentalists have long criticized Tesla for clearing sections of a forest in order to build its electric car factory outside Berlin. A police spokesperson said the situation remained \"dynamic.\" Activists attempted to break into Tesla's electric car facto…",
+    "url": "https://www.dw.com/en/protesters-attempt-to-storm-teslas-factory-in-berlin/a-69046103",
+    "urlToImage": "https://static.dw.com/image/69046169_6.jpg",
+    "publishedAt": "2024-05-10T13:12:00Z",
+    "content": "Activists attempted to break into Tesla's electric car factory outside Berlin on Friday, according topolice. \r\nRegional broadcaster RBB reported that several hundred people ran toward the Tesla facil… [+710 chars]"
+    },
+    {
+      "id":"2",
+    "author": "Morgan Meaker",
+    "title": "Climate Protestors Storm Tesla's Gigafactory in Europe",
+    "description": "The carmaker’s only European gigafactory has become the target of increasingly radical protests since announcing expansion plans.",
+    "url": "https://www.wired.com/story/climate-protestors-storm-teslas-europe-gigafactory/",
+    "urlToImage": "https://media.wired.com/photos/663e1a1dff22bdec82842b75/191:100/w_1280,c_limit/Tesla.jpg",
+    "publishedAt": "2024-05-10T13:08:01Z",
+    "content": "Protesters charged onto Teslas factory site near Berlin on Friday, as part of a five-day demonstration against the carmakers local expansion plans.\r\nFootage on social media showed crowds of black-cla… [+2337 chars]"
+    },
+    {
+      "id":"3",
+
+    "author": "the us sun",
+    "title": "Anarchists storm TESLA factory in Germany after 'Vulkan Group' declares war...",
+    "description": "A GROUP of angry black-clad anarchists has clashed with police as it stormed the Tesla giga-factory in Brandenburg. Dramatic footage shows demonstrators defying cops and breaking through police lin…",
+    "url": "https://www.the-sun.com/news/11331758/moment-army-anarchists-tesla-giga-factory-germany/",
+    "urlToImage": "https://www.the-sun.com/wp-content/uploads/sites/6/2024/05/2024-near-gruenheide-germany-activists-900318925.jpg?strip=all&quality=100&w=1920&h=1080&crop=1",
+    "publishedAt": "2024-05-10T13:00:03Z",
+    "content": "A GROUP of angry black-clad anarchists has clashed with police as it stormed the Tesla giga-factory in Brandenburg.\r\nDramatic footage shows demonstrators defying cops and breaking through police line… [+4887 chars]"
+    },
+   {      "id":"4",
+
+    "author": "Owen Bellwood",
+    "title": "Departing Tesla Exec Can’t ‘See The Long Game’ As Layoffs Hit Morale, Stock Price",
+    "description": "Good morning! It’s Friday, May 10, 2024, and this is The Morning Shift, your daily roundup of the top automotive headlines from around the world, in one place. Here are the important stories you need to know.Read more...",
+    "url": "https://jalopnik.com/departing-tesla-exec-can-t-see-the-long-game-as-layof-1851468607",
+    "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/d63dcb77fad338a5e52bae8da03cfe5e.jpg",
+    "publishedAt": "2024-05-10T13:00:00Z",
+    "content": "Good morning! Its Friday, May 10, 2024, and this is The Morning Shift, your daily roundup of the top automotive headlines from around the world, in one place. Here are the important stories you need … [+7087 chars]"
+    },
+  {
+      "id":"5",
+
+    "author": "Victor Tangermann",
+    "title": "Smugglers Busted Trying to Sneak Cybertrucks Into Russia",
+    "description": "To Russia With Love Tesla-obsessed vigilantes reportedly attempted to smuggle two Tesla Cybertrucks into Russia — but got caught well before they could get there. As Electrek reports, the pair of oddball pickup trucks were seized by Lithuanian customs while t…",
+    "url": "https://futurism.com/the-byte/smugglers-busted-sneak-cybertrucks-russia",
+    "urlToImage": "https://wp-assets.futurism.com/2024/05/smugglers-busted-sneak-cybertrucks-russia2.jpg",
+    "publishedAt": "2024-05-10T12:58:55Z",
+    "content": "No Cybertruck for you, comrade.\r\nTo Russia With Love\r\nTesla-obsessed vigilantes reportedly attempted to smuggle two Tesla Cybertrucks into Russia but got caught well before they could get there.\r\nAs … [+2006 chars]"
+    },
+    {
+      "id":"6",
+
+    "author": "Investing.com",
+    "title": "Needham trims Blink Charging stock PT as bookings dip before Tesla's impact surge",
+    "description": "Needham trims Blink Charging stock PT as bookings dip before Tesla's impact surge",
+    "url": "https://www.investing.com/news/company-news/needham-trims-blink-charging-stock-pt-as-bookings-dip-before-teslas-impact-surge-93CH-3434632",
+    "urlToImage": "https://i-invdn-com.investing.com/news/LYNXNPEE310MM_L.jpg",
+    "publishedAt": "2024-05-10T12:57:23Z",
+    "content": "On Friday, Blink Charging Co. (NASDAQ:BLNK) had its price target lowered by Needham, now set at $6.00, decreasing from the previous $7.00, while the firm maintained a Buy rating on the stock. The adj… [+3079 chars]"
+    },
+  {
+      "id":"7",
+      
+    "author": "investors.com",
+    "title": "Vultures Circle As Elon Musk Says This On Superchargers Following Layoffs",
+    "description": "Tesla stock is down on the week. The post Vultures Circle As Elon Musk Says This On Superchargers Following Layoffs appeared first on Investor's Business Daily.",
+    "url": "https://biztoc.com/x/e413858d5cab2cc8",
+    "urlToImage": "https://c.biztoc.com/274/og.png",
+    "publishedAt": "2024-05-10T12:56:09Z",
+    "content": "Tesla stock is down on the week.The post Vultures Circle As Elon Musk Says This On Superchargers Following Layoffs appeared first on Investor's Business Daily.\r\nThis story appeared on investors.com, … [+10 chars]"
+    },
+    {
+      "id":"8",
+   
+    "author": "Keelan Balderson",
+    "title": "22 Shocking AI Electricity Usage Statistics for 2024 and Beyond",
+    "description": "AI is taking the world by storm and innovating industries in ways never thought possible. But today, I crunched the numbers to find the most shocking AI electricity usage statistics. The sheer amount of data and processing power it takes to train and develop …",
+    "url": "https://mspoweruser.com/ai-electricity-usage/",
+    "urlToImage": "https://mspoweruser.com/wp-content/uploads/2024/05/ai-electricity-usage.png",
+    "publishedAt": "2024-05-10T12:54:37Z",
+    "content": "AI is taking the world by storm and innovating industries in ways never thought possible. But today, I crunched the numbers to find the most shocking AI electricity usage statistics.\r\nThe sheer amoun… [+8902 chars]"
+    }]
 }

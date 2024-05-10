@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Formik } from "formik";
 import { v4 as uuidv4 } from "uuid";
+import {Helmet} from 'react-helmet-async';
 
 import axios from "axios";
 import MainContext from "../../../context/context";
@@ -10,6 +11,10 @@ const Add = () => {
   const { setProducts, products } = useContext(MainContext);
   return (
     <div>
+     <Helmet>
+        <title>Add</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
       <Formik
         initialValues={{ image: "", title: "", price: "" }}
         onSubmit={(values) => {

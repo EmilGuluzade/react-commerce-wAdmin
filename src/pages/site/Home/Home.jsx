@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import MainContext from "../../../context/context";
 import Loading from "../../Loading/Loading";
 import { Link } from "react-router-dom";
+import {Helmet} from 'react-helmet-async';
 
 const Home = () => {
   const { products, loading } = useContext(MainContext);
@@ -12,6 +13,10 @@ const Home = () => {
         <Loading />
       ) : (
         <>
+        <Helmet>
+        <title>Home</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
           <header class="bg-dark py-5">
             <div class="container px-4 px-lg-5 my-5">
               <div class="text-center text-white">

@@ -13,9 +13,8 @@ const Header = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/">Home</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/admin">Admin</Link></li>
-                <li className="nav-item dropdown">
-              
-                </li>
+                <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
+
             </ul>
             <form className="d-flex">
                 <Link  to="/cart" className="btn btn-outline-dark" >

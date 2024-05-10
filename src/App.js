@@ -10,6 +10,7 @@ function App() {
 const router = createBrowserRouter(ROUTES);
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [articles, setArticles] = useState([]);
 
   const [error, setError] = useState(false);
 
@@ -23,7 +24,17 @@ const router = createBrowserRouter(ROUTES);
       setLoading(false)
     });
   }, []);
- const  contextData ={products,setProducts,loading, setLoading,error, setError}
+  useEffect(() => {
+    axios.get("http://localhost:3000/articles").then((res) => {
+      setArticles([...res.data]);
+      setLoading(false)
+
+    }).catch(error=>{
+      setError(error)
+      setLoading(false)
+    });
+  }, []);
+ const  contextData ={products,setProducts,loading, setLoading,error, setError,articles,setArticles}
   return (
     <div className="App">
       <MainContext.Provider value={contextData}>
