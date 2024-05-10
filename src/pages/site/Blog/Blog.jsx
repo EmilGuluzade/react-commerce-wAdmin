@@ -16,11 +16,11 @@ const Blog = () => {
       {articles.map((item, index) => (
         <div
           style={{ border: "1px solid black" }}
-          className=" rounded-5  p-2 w-75 d-flex flex-column align-items-center  "
+          className=" rounded-5  p-3 w-75 d-flex flex-column align-items-center  "
         >
           <h2>{item.title}</h2>
           <img src={item.urlToImage} width="80%" alt="" />
-          <p>{item.content}</p>
+          <p>{item.content}</p><span>Published At : {item.publishedAt}</span>
         </div>
       ))}
     </div>
