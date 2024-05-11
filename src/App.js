@@ -11,7 +11,6 @@ const router = createBrowserRouter(ROUTES);
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [articles, setArticles] = useState([]);
-
   const [error, setError] = useState(false);
 
   useEffect(() => {
