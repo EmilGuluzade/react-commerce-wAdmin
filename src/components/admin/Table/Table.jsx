@@ -18,6 +18,7 @@ const Table = ({ product }) => {
           <th scope="col">#</th>
           <th scope="col">Image</th>
           <th scope="col">Title</th>
+          <th scope="col">Description</th>
           <th scope="col">Price</th>
           <th scope="col">Delete</th>
         </tr>
@@ -30,6 +31,8 @@ const Table = ({ product }) => {
               <img src={item.image} alt="" width="100px" height="100px" />
             </td>
             <td>{item.title}</td>
+            <td>{item.description}</td>
+
             <td>{item.price}$</td>
             <td>
               <button

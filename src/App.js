@@ -32,7 +32,7 @@ const router = createBrowserRouter(ROUTES);
       setError(error)
       setLoading(false)
     });
-  }, []);
+  }, []); 
  const  contextData ={products,setProducts,loading, setLoading,error, setError,articles,setArticles}
   return (
     <div className="App">

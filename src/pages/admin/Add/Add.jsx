@@ -16,7 +16,7 @@ const Add = () => {
         <link rel="canonical" href="https://www.tacobell.com/" />
       </Helmet>
       <Formik
-        initialValues={{ image: "", title: "", price: "" }}
+        initialValues={{ image: "", title: "", price: "",decription:"" }}
         onSubmit={(values) => {
           axios
             .post("http://localhost:3000/products", {
@@ -24,6 +24,7 @@ const Add = () => {
               title: values.title,
               price: values.price,
               image: values.image,
+              decription:values.decription
             })
             .then((res) => {
               setProducts([...products, res.data]);
@@ -31,6 +32,8 @@ const Add = () => {
               values.title = "";
               values.price = "";
               values.image = "";
+              values.decription = "";
+
               toast.success("item added");
             });
         }}
@@ -47,6 +50,7 @@ const Add = () => {
             className="container text-light p-5   gap-3 d-flex  flex-column  w-50  mt-5 rounded-3 mb-5 bg-dark "
             onSubmit={handleSubmit}
           >
+            
             <label for="title" class="form-label">
               Product Title
             </label>
@@ -60,6 +64,20 @@ const Add = () => {
               onBlur={handleBlur}
               value={values.title}
             />
+            <label for="decription" class="form-label">
+              Product Decription
+            </label>
+            <input
+              type="text"
+              name="decription"
+              placeholder="Enter decription"
+              class="form-control"
+              id="decription"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              value={values.decription}
+            />
+            {errors.decription && touched.decription && errors.decription}
             {errors.title && touched.title && errors.title}
             <label for="image" class="form-label">
               Product Image
